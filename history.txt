@@ -1,76 +1,87 @@
-    1  git clone https://github.com/codewithbala/Jenkins-CICD_Bala.git
-    2  ll
-    3  cd Jenkins-CICD_Bala/
-    4  ll
-    5  chmod 444 jenkins-installation-ubuntu.sh 
-    6  ./jenkins-installation-ubuntu.sh 
-    7  chmod +x jenkins-installation-ubuntu.sh 
-    8  ./jenkins-installation-ubuntu.sh 
-    9  cd ..
-   10  apt install maven
-   11  apt install tree
-   12  git clone https://github.com/codewithbala/java-code1.git
-   13  ll
-   14  cd java-code1/
-   15  mvn install
-   16  cd target
-   17  tree
-   18  ll
-   19  cd ../..
-   20  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
-   21  cd java-code1/
-   22  cd target
-   23  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
-   24  cd ..
-   25  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
-   26  cd target 
-   27  ll
-   28  cd ..
-   29  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
-   30  cd ..
-   31  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
-   32  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.87/bin/apache-tomcat-9.0.87.tar.gz
-   33  tar -xvf apache-tomcat-9.0.87.tar.gz
-   34  ll
-   35  cd apache-tomcat-9.0.87
-   36  ll
-   37  cd webapps
-   38  ll
-   39  wpwd
-   40  pwd
-   41  cd ..\
-   42  cd ..
-   43  ll
-   44  cd java-code1/
-   45  ll
-   46  cd target
-   47  ll
-   48  cp studentapp-2.5-SNAPSHOT.war /root/apache-tomcat-9.0.87/webapps
-   49  cp studentapp-2.5-SNAPSHOT.war /apache-tomcat-9.0.87/webapps
-   50  cd ../..
-   51  ll
-   52  cd apache-tomcat-9.0.87
-   53  ll
-   54  cd webapps
-   55  ll
-   56  systemctl stop jenkins
-   57  systemctl status jenkins
-   58  systemctl start jenkins
-   59  systemctl status jenkins
-   60  cd../..
-   61  cd ...
-   62  cd ..
-   63  ssh-keygen
-   64  cd ~/.ssh/
-   65  ll
-   66  cat id_rsa.pub
-   67  cd ..
-   68  git clone git@github.com:richardisaninja2/jenkins-git2.git
-   69  l
-   70  ll
-   71  cd jenkins-git2/
-   72  ll
-   73  git status
-   74  touch history.txt
-   75  ll
-   76  history > history.txt
+g
+l
+c
+l
+c
+.
+c
+.
+c
+a
+a
+g
+l
+c
+m
+c
+t
+l
+c
+w
+c
+c
+w
+c
+w
+c
+l
+c
+w
+c
+w
+w
+t
+l
+c
+l
+c
+l
+w
+p
+c
+c
+l
+c
+l
+c
+l
+c
+c
+c
+l
+c
+l
+c
+l
+s
+s
+s
+s
+c
+c
+c
+s
+c
+l
+c
+c
+g
+l
+l
+c
+l
+g
+t
+l
+h
+c
+c
+g
+g
+g
+g
+g
+g
+g
+g
+h
